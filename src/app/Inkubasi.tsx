@@ -96,7 +96,7 @@ export default function Inkubasi() {
         model: "gemini-3.1-pro-preview",
         contents: `Saya adalah desainer grafis. Analisis pesan klien (biasanya dari WhatsApp atau Email) berikut dan ekstrak parameter teknis untuk desain sablon kaos. Provide the result in JSON format.\n\nPesan Klien:\n"${rawClientMessage}"`,
         config: {
-          systemInstruction: "Kamu adalah asisten desain Al-Manhaj yang membantu menganalisa pesan kasar dari klien menjadi brief teknis yang rapi. Ekstrak nama brand, ringkas konsep menjadi paragraf padat (dengan saran gaya seperti 2D flat vector, scribble art, dll), dan tebak jumlah warna sablon yang optimum jika tidak pasti (1, 2, 3, 4, atau CMYK).",
+          systemInstruction: "Kamu adalah asisten desain Grafira yang membantu menganalisa pesan kasar dari klien menjadi brief teknis yang rapi. Ekstrak nama brand, ringkas konsep menjadi paragraf padat (dengan saran gaya seperti 2D flat vector, scribble art, dll), dan tebak jumlah warna sablon yang optimum jika tidak pasti (1, 2, 3, 4, atau CMYK).",
           responseMimeType: "application/json",
           responseSchema: {
             type: Type.OBJECT,
@@ -200,7 +200,7 @@ export default function Inkubasi() {
             
             <p className="text-neutral-400 text-sm max-w-lg relative z-10">
               Tempel pesan kasar klien (contoh dari obrolan WhatsApp). 
-              AI Al-Manhaj akan mengekstrak detail teknis, menyiapkan narasi desain, serta menyarankan gaya visual yang solid.
+              AI Grafira akan mengekstrak detail teknis, menyiapkan narasi desain, serta menyarankan gaya visual yang solid.
             </p>
             
             <div className="relative z-10 mt-4 space-y-3">

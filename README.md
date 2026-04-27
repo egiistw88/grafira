@@ -1,10 +1,10 @@
-# Al-Manhaj: AI-Powered Apparel Pre-Production System
+# Grafira: AI-Powered Apparel Pre-Production System
 
-Selamat datang di repositori **Al-Manhaj**, sebuah sistem arsitektur perangkat lunak cerdas yang dirancang khusus untuk memodernisasi dan mengotomatisasi alur kerja pra-produksi desain pakaian (khususnya sablon/screen printing). Dirancang dari perspektif filosofis dan teknis oleh _Abunawa_.
+Selamat datang di repositori **Grafira**, sebuah sistem arsitektur perangkat lunak cerdas yang dirancang khusus untuk memodernisasi dan mengotomatisasi alur kerja pra-produksi desain pakaian (khususnya sablon/screen printing). Dirancang dari perspektif filosofis dan teknis yang modern.
 
 ## Sorotan Eksekutif
 
-Al-Manhaj mengusung filosofi Zen dengan paduan **Negative Space** ekstrem dan antarmuka single-column yang bebas distraksi. Sistem tidak hanya mengusung konsep minimalis secara visual, tetapi juga ditenagai oleh kecerdasan buatan mutakhir (Google Gemini) untuk membantu proses visualisasi ide, kalkulasi vektor, hingga inspeksi mutu (Quality Control) sebelum cetak nyata.
+Grafira mengusung filosofi Zen dengan paduan **Negative Space** ekstrem dan antarmuka single-column yang bebas distraksi. Sistem tidak hanya mengusung konsep minimalis secara visual, tetapi juga ditenagai oleh kecerdasan buatan mutakhir (Google Gemini) untuk membantu proses visualisasi ide, kalkulasi vektor, hingga inspeksi mutu (Quality Control) sebelum cetak nyata.
 
 ## Arsitektur Teknologi (Tech Stack)
 
@@ -63,4 +63,4 @@ Aplikasi ini disiapkan untuk lingkungan produksi melalui Vercel:
 
 ---
 
-_"Bentuk murni dari fungsionalitas membuahkan estetika yang paling anggun"_ — Abunawa.
+_"Bentuk murni dari fungsionalitas membuahkan estetika yang paling anggun"_

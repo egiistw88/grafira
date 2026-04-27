@@ -90,7 +90,7 @@ export default function PraCetak() {
 
       doc.setFontSize(10);
       doc.setFont("helvetica", "normal");
-      doc.text("AL-MANHAJ PRINT STUDIO // RAW SEPARATION FILM", 20, 290);
+      doc.text("GRAFIRA PRINT STUDIO // RAW SEPARATION FILM", 20, 290);
       doc.text(`MODE: ${config.invertFilm ? 'NEGATIVE' : 'POSITIVE'} // LAYERS: ${colorCount}`, 20, 295);
 
       if (draftImage) {
@@ -144,7 +144,7 @@ export default function PraCetak() {
       const url = URL.createObjectURL(pdfBlob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = `AlManhaj_Film_Separation_${colorCount}Colors.pdf`;
+      a.download = `Grafira_Film_Separation_${colorCount}Colors.pdf`;
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
@@ -165,7 +165,7 @@ export default function PraCetak() {
         const url = URL.createObjectURL(blob);
         const a = document.createElement("a");
         a.href = url;
-        a.download = "AlManhaj_Vector_Separation.svg";
+        a.download = "Grafira_Vector_Separation.svg";
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
@@ -185,7 +185,7 @@ export default function PraCetak() {
               
               // Create SVG string that embeds the image (compatible with Adobe Illustrator)
               const svgString = `<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Al-Manhaj Print Studio -->
+<!-- Generator: Grafira Print Studio -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 ${img.width} ${img.height}" width="${img.width}" height="${img.height}">
   <image xlink:href="${imgData}" x="0" y="0" width="${img.width}" height="${img.height}" />
   <!-- (Sistem mensimulasikan path vector SVG dari proses tracing) -->
@@ -195,7 +195,7 @@ export default function PraCetak() {
               const url = URL.createObjectURL(blob);
               const a = document.createElement("a");
               a.href = url;
-              a.download = "AlManhaj_Vector_Separation.svg";
+              a.download = "Grafira_Vector_Separation.svg";
               document.body.appendChild(a);
               a.click();
               document.body.removeChild(a);

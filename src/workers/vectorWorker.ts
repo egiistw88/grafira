@@ -43,10 +43,10 @@ function postProcessSVG(svgStr: string): string {
   const height = heightMatch ? heightMatch[1] : "1000";
   
   let newSvg = `<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Al-Manhaj Print Studio RIP Engine -->
+<!-- Generator: Grafira Print Studio RIP Engine -->
 <svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="${viewBox}" version="1.1">
   <defs>
-    <!-- Al-Manhaj Advanced Layered Separation -->
+    <!-- Grafira Advanced Layered Separation -->
   </defs>
 `;
   
